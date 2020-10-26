@@ -36,7 +36,7 @@ public class HomeFragment extends Fragment {
         allImageShow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), HomeImageView.class);
+                Intent intent = new Intent(getContext(), DownloadImage.class);
                 startActivity(intent);
             }
         });
